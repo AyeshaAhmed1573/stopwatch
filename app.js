@@ -20,12 +20,22 @@ function timer(){
 }
 }
 function start(){
+
 interval = setInterval(timer,10)
+
+
+//    if(interval=1){{
+//     clearInterval(interval)
+//     }
+// }
 }
 function stop(){
     clearInterval(interval)
     }
     function reset(){
+        {
+            clearInterval(interval)
+            }
        
         min= 0;
         sec = 0;
@@ -35,5 +45,8 @@ function stop(){
         msecHeading.innerHTML = msec
       
         }
+        function myFunction() {
+            document.getElementById("myBtn").disabled = true;
+          }
         
           
