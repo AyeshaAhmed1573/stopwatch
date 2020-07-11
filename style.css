@@ -1,0 +1,26 @@
+#watch{
+    height: 400px;
+    width: 400px;
+    background-color: mediumseagreen;
+    border-radius: 50%;
+    border: 10px solid seagreen;
+    margin: 0 auto;
+}
+h1{
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 70px;
+}
+#no{
+    margin-left: 80px;
+    margin-top: 15%;
+}
+button{
+    height: 40px;
+    width: 60px;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+#btn{
+    margin-left: 100px;
+}
